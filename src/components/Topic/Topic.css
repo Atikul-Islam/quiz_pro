@@ -1,9 +1,39 @@
 .topics{
+    border-radius: 10px;
+    height: 480px;
+    width: 100%;
     background-color: blueviolet;
     margin: 5px;
+    color: rgb(250, 231, 231);
 }
 
 .topics img{
-    width: 100%;
-    height: auto;
+    width: 50%;
+    height: fit-content;
+}
+
+.topics button{
+    background-color: rgb(114, 221, 216);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+}
+
+.topics button:hover{
+    background-color: rgb(179, 143, 212);
+}
+
+@media screen and (max-width: 480px) {
+    .topics{
+        border-radius: 10px;
+        height: 330px;
+        width: 100%;
+        background-color: blueviolet;
+        margin: 5px;
+    }
 }

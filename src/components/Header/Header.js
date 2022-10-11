@@ -6,16 +6,16 @@ import logo from './logo.png'
 
 const Header = () => {
     return (
-        <nav>
+        <nav className='header'>
             <div className='logo-container'>
                 <img src={logo} alt="" />
                 <h1>Quizzz Pro</h1>
             </div>
             <div className='link-container'>
-                <Link to='/'>Home</Link>
-                <Link to='/topics'>Topics</Link>
-                <Link to='/blog'>Blog</Link>
-                <Link to='/statistics'>Statistics</Link>
+                <Link to='/' className='n-link' >Home</Link>
+                <Link to='/topics' className='n-link'>Topics</Link>
+                <Link to='/blog' className='n-link'>Blog</Link>
+                <Link to='/statistics' className='n-link'>Statistics</Link>
             </div>
         </nav>
     );

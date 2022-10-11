@@ -2,7 +2,6 @@ import React from 'react';
 import './Topic.css'
 
 const Topic = ({topic}) => {
-    console.log(topic)
     const {name,logo,total} = topic;
     return (
         <div className='topics'>
