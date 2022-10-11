@@ -1,0 +1,21 @@
+.chart-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.chart-container h2{
+    margin-right: 5%;
+}
+
+@media screen and (max-width: 480px) {
+    .chart-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+}
