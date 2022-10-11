@@ -1,0 +1,25 @@
+nav{
+    background-color: rgb(185, 181, 189);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.logo-container{
+    display: flex;
+}
+
+.logo-container img{
+    width: 40px;
+}
+
+.link-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-container Link{
+    margin: 10px;
+}
