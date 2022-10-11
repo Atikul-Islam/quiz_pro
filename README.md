@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+# Project Name : Quizz Pro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+
+
+## Features of this project
+- This is Quiz website.
 
 In the project directory, you can run:
 
