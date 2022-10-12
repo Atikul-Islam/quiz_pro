@@ -1,0 +1,20 @@
+.qus-container{
+    background-color: rgb(150, 179, 169);
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.qus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.eye{
+    height: 20px;
+}

@@ -21,5 +21,5 @@
 
 ### Live Website
 
-Open [https://cosmic-alfajores-73b8bc.netlify.app/](https://cosmic-alfajores-73b8bc.netlify.app/)
+Open: [https://cosmic-alfajores-73b8bc.netlify.app/](https://cosmic-alfajores-73b8bc.netlify.app/)
 

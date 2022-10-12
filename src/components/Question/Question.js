@@ -2,6 +2,8 @@ import React from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import Option from '../Option/Option';
 import 'react-toastify/dist/ReactToastify.css';
+import { EyeIcon } from '@heroicons/react/24/solid'
+import './Question.css'
 
 const Question = ({qus}) => {
     const {correctAnswer,options}=qus;
@@ -12,8 +14,11 @@ const Question = ({qus}) => {
     }
     
     return (
-        <div>
-            <h2>{qus.question}</h2>
+        <div className='qus-container'>
+            <div className='qus'>
+                <h2>{qus.question}</h2>
+                <EyeIcon onClick={showToast} className="eye"/>
+            </div>
             {
                 options.map(opt => <Option 
                 opt={opt}
@@ -21,7 +26,6 @@ const Question = ({qus}) => {
                 ></Option>)
             }
             <br />
-            <button onClick={showToast}>see answer</button>
             <ToastContainer />
         </div>
     );
