@@ -5,7 +5,7 @@ import Option from '../Option/Option';
 const Question = ({qus}) => {
     const {correctAnswer,options}=qus;
     const showToast = () =>{
-        return toast({correctAnswer},{
+        toast({correctAnswer},{
             position:"top-center"
         });
     }

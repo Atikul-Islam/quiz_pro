@@ -7,3 +7,15 @@
     margin-left: 10%;
     margin-right: 10%;
 }
+
+@media screen and (max-width: 480px) {
+    .banner{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .banner img{
+        width: fit-content;
+    }
+}
