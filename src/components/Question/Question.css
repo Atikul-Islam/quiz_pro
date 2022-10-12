@@ -18,3 +18,14 @@
 .eye{
     height: 20px;
 }
+
+@media screen and (max-width: 480px) {
+    .qus{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    
+    }
+}
