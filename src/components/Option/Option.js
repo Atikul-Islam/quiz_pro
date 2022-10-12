@@ -2,9 +2,9 @@ import React from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const Option = ({opt,ca}) => {
+const Option = ({opt,correctAnswer}) => {
     const showToast = () =>{
-        if(ca===opt){
+        if(correctAnswer===opt){
             toast('Answer is correct',{
                 position:'top-center'
             })

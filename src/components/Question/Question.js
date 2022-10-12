@@ -10,13 +10,14 @@ const Question = ({qus}) => {
             position: 'top-center'
         });
     }
+    
     return (
         <div>
             <h2>{qus.question}</h2>
             {
                 options.map(opt => <Option 
                 opt={opt}
-                ca={correctAnswer}
+                correctAnswer={correctAnswer}
                 ></Option>)
             }
             <br />

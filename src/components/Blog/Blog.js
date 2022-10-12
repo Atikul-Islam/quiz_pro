@@ -14,7 +14,13 @@ const Blog = () => {
 
           <h3>What is useRef hook in react?</h3>
 
-          <p>The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly. </p>
+          <p>The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly.
+            <br />
+            useRef() only returns one item. It returns an Object called current.
+            When we initialize useRef we set the initial value: useRef(0). It's like doing this: const count = {'current: 0'}. We can access the count by using count.current.
+            In general, we want to let React handle all DOM manipulation.
+            But there are some instances where useRef can be used without causing issues.
+            In React, we can add a ref attribute to an element to access it directly in the DOM.</p>
         </div>
     );
 };
