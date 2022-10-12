@@ -8,10 +8,10 @@
 
 In the project directory, you can run:
 
-### `npm start`
+### Live Website
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [https://cosmic-alfajores-73b8bc.netlify.app/](https://cosmic-alfajores-73b8bc.netlify.app/) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
