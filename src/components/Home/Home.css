@@ -1,0 +1,9 @@
+.banner{
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
